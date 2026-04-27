@@ -61,3 +61,15 @@ int main() {
                 classificacao(m);
                 break;
             }
+                  case 0:
+                printf("Saindo do programa...\n");
+                break;
+
+            default:
+                printf("Opcao invalida!\n");
+        }
+
+    } while (opcao != 0);
+
+    return 0;
+}
