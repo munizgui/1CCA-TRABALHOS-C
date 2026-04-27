@@ -11,7 +11,7 @@ int main() {
 
     media = (nota1 + nota2) / 2; //Adição dos parenteses para expressão matematica correta
 
-    if (media = 6) { 
+    if (media >= 6) { //Adição do sinal > para resultado correto da média
         printf("Aluno aprovado\n");
     } else {
         printf("Aluno reprovado\n");
