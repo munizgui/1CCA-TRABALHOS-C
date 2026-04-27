@@ -21,3 +21,34 @@ void classificacao(float m) {
         printf("Reprovado\n");
     }
 }
+
+int main() {
+    int opcao;
+
+    do {
+        printf("\n=== MENU ===\n");
+        printf("1 - Calcular derivada\n");
+        printf("2 - Calcular media\n");
+        printf("0 - Sair\n");
+        printf("Escolha: ");
+        scanf("%d", &opcao);
+
+        switch(opcao) {
+            case 1: {
+                float a, b, c;
+
+                printf("Digite o valor de a: ");
+                scanf("%f", &a);
+
+                printf("Digite o valor de b: ");
+                scanf("%f", &b);
+
+                printf("Digite o valor de c: ");
+                scanf("%f", &c);
+
+                derivada(a, b);
+                break;
+            }
+        }
+    }
+}
