@@ -43,6 +43,18 @@ int main() {
                 else
                     printf("Situacao: Reprovado\n");
                 break;
+                
+            case 4:
+                printf("Notas: %.2f e %.2f\n", nota_1, nota_2);
+                printf("Media: %.2f\n", media);
+                break;
+
+            case 5:
+                printf("Saindo...\n");
+                return 0;
+
+            default:
+                printf("Opcao invalida!\n");
         }
     }
 
