@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h> //Adição da chaves e remoção das aspas
 
 int main() {
     float nota1, nota2, media
