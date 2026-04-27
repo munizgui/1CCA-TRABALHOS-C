@@ -49,6 +49,15 @@ int main() {
                 derivada(a, b);
                 break;
             }
-        }
-    }
-}
+              case 2: {
+                float n1, n2, n3, m;
+
+                printf("Digite 3 notas: ");
+                scanf("%f %f %f", &n1, &n2, &n3);
+
+                m = media(n1, n2, n3);
+
+                printf("Media = %.2f\n", m);
+                classificacao(m);
+                break;
+            }
