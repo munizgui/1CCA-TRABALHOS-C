@@ -1,7 +1,7 @@
 #include <stdio.h> //Adição da chaves e remoção das aspas
 
 int main() {
-    float nota1, nota2, media
+    float nota1, nota2, media; // Adição do ponto e virgula
 
     printf("Digite a primeira nota: ");
     scanf("%f", &nota1);
