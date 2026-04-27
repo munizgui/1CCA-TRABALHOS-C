@@ -28,6 +28,21 @@ int main() {
                 printf("Insira a segunda nota: ");
                 scanf("%f", &nota_2);
                 break;
+
+            case 2:
+                media = (nota_1 + nota_2) / 2;
+                printf("Media calculada: %.2f\n", media);
+                break;
+
+            case 3:
+                if (media >= 8)
+                    printf("Situacao: Aprovado com excelencia\n");
+                
+                else if(media >= 6 && media < 8)
+                    printf("Situacao: Aprovado");
+                else
+                    printf("Situacao: Reprovado\n");
+                break;
         }
     }
 
